@@ -14,7 +14,7 @@ if( is_front_page() ) {
 }
 ?>
 
-<main id="site-content" role="main" class="clearfix fdl-page-content <?php echo $page_class; ?>">
+<main id="site-content" role="main" class="clearfix fdl-page-content <?php echo esc_attr($page_class); ?>">
 
 <!-- <section role="placeholder content"> -->
 <?php 

@@ -1,6 +1,7 @@
 <?php
 if ( !function_exists ( "custom_theme_js_global" ) ) :
 function custom_theme_js_global() {
+    $theme_version = wp_get_theme()->get( 'Version' );
     // Feature detects: loads in header
     //wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/assets/js/scripts.js', null, null, false );
     // jquery

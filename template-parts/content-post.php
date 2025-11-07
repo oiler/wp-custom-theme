@@ -2,7 +2,7 @@
     <main id="main" role="main">
     <?php
 		the_title($before='<h2 class="page-title">> ', $after='</h2>');
-        the_content( __( 'Continue reading', '' ) );
+        the_content( __( 'Continue reading', CUSTOM_THEME_TEXT_DOMAIN ) );
     ?>
     </main>
 </div>

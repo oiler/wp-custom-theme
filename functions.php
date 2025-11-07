@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Theme text domain constant
+ */
+if ( ! defined( 'CUSTOM_THEME_TEXT_DOMAIN' ) ) {
+    define( 'CUSTOM_THEME_TEXT_DOMAIN', 'custom-theme' );
+}
+
 add_theme_support( "title-tag" );
 add_theme_support( "responsive-embeds" );
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
